@@ -1,0 +1,2 @@
+flask==0.9
+-e git://github.com/nicolas33/offlineimap.git#egg=offlineimap
