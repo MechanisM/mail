@@ -28,6 +28,14 @@ Want to get all the e-mails in your inbox?
         ]
     }
 
+This is a programmer's e-mail client.  The possibilities are endless.
+Regex-based filters, script everything, callbacks when an e-mail comes, etc.
+You can say things like: download all the attachments that this person sent me
+last summer, put them into a tar and upload it to S3.  Automatic backup, your
+own layer of spam filtering, collect your contacts based on predefined rules,
+... Automate your e-mail workflow.  It runs over HTTP so it's language
+agnostic.  Do you like a web-based client or do you prefer a console based one?
+
 Installation
 ------------
 
