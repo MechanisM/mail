@@ -6,6 +6,8 @@ mail
 Sync your e-mail account to your local machine via IMAP and manage it locally
 over HTTP by passing JSON messages.
 
+**Super alpha**: Documentation is on its way
+
 Huh?
 ----
 
