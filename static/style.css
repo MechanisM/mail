@@ -1,0 +1,21 @@
+body {
+    font-family: 'Helvetica'
+}
+
+#messages {
+}
+
+.message {
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+
+.message span {
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+.body {
+    display: none;
+    padding: 0 20px 0 20px;
+}
