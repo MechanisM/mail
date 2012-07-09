@@ -1,4 +1,5 @@
 import os
+from quopri import decodestring
 from email import message_from_string
 
 
@@ -12,6 +13,7 @@ def read_email(filename):
     if isinstance(payload, list):
         plain = payload[0].get_payload()
         html = payload[1].get_payload()
+        html = decodestring(html)
     elif isinstance(payload, str):
         plain = payload
         html = None
